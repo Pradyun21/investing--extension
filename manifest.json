@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AutoSense Trade Tracker",
+  "version": "1.0",
+  "description": "Tracks baseline trading patterns and stores them using Chrome local storage.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "dist/background.js"
+  }
+}
